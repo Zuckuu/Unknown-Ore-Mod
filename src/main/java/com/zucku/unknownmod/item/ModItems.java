@@ -17,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> DARK = ITEMS.register("dark", 
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> DARK_INGOT = ITEMS.register("dark_ingot", 
+        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
